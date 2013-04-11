@@ -1,0 +1,13 @@
+Package: pepmapsGUI
+Type: Package
+Title: GUI elements for various parts of pepmaps
+Version: 0.0-1
+Date: 2012-12-12
+Author: Thomas Dybdal Pedersen
+Maintainer: Thomas Dybdal Pedersen <thomasp85@gmail.com>
+Description: This package is a collections of GUIs to facilitate usage of pepmaps features
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: methods, xlsx, xlsxjars, rJava, gWidgets, gWidgetsRGtk2, RGtk2
+Imports: ggplot2, grid, gridExtra, reshape2, plyr, RColorBrewer, scales, gtable, pepmaps
+Collate: msgfGUI.R
